@@ -62,7 +62,7 @@ colors() # gives you a list of all the colors you can use
 # exercise 2.2
 ggplot(penguins) +
   geom_point(aes(x = bill_depth_mm, y = bill_length_mm, color = sex)) +
-  facet_wrap(~species, ncol = 1) + 
+  facet_wrap(~species, ncol = 3) + 
   theme_bw() + 
   labs(x = "Bill Depth (mm)", y = "Bill Length (mm)", title = "Pingagne") + 
-  scale_color_manual(values = c("violetred3", "yellow3"))
+  scale_color_manual(values = c("violetred3", "yellow3", "green"))
