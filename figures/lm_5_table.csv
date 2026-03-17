@@ -1,0 +1,5 @@
+term,estimate,std.error,statistic,p.value,conf.low,conf.high
+(Intercept),10.59,0.68,15.51,0,9.25,11.94
+bill_length_mm,0.2,0.02,11.43,0,0.17,0.23
+speciesChinstrap,-1.93,0.22,-8.62,0,-2.37,-1.49
+speciesGentoo,-5.11,0.19,-26.67,0,-5.48,-4.73
